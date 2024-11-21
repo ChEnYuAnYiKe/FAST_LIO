@@ -1,6 +1,7 @@
 common:
   lid_topic: "lidar"
   imu_topic: "imu"
+  frame_id: "livox_world"
   time_sync_en: false # ONLY turn on when external time synchronization is really not possible
   time_offset_lidar_to_imu: 0.0
     # Time offset between lidar and IMU calibrated by other algorithms, e.g. LI-Init (can be found in README).
